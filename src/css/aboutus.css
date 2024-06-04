@@ -1,0 +1,30 @@
+.informations {
+    padding: 80px 20px 0 20px;
+}
+.image-information {
+    width: 500px;
+    height: 500px;
+}
+.description-informations {
+    width: 500px;
+}
+.title-primary {
+    color: rgb(255, 140, 39);
+    letter-spacing: 5px;
+}
+@media (max-width : 992px) {
+    .description-informations {
+        font-size: .7em;
+    }
+}
+@media (max-width : 768px) {
+    .informations {
+        flex-wrap: wrap;
+    }
+    .image-information {
+        width: 100%;
+    }
+    .description-informations {
+        width: 100%;
+    }
+}

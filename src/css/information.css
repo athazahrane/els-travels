@@ -1,0 +1,16 @@
+.information {
+    padding-top: 80px;
+}
+.image-feature {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.content-item {
+    color: #fff;
+    transition: all .1s;
+}
+.content-item:hover {
+    color: rgb(255, 155, 42) !important;
+    cursor: pointer;
+}

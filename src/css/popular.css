@@ -1,0 +1,45 @@
+.popular {
+    padding-top: 100px;
+}
+.content-popular {
+    width: 100%;
+}
+.card-item-popular {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+.image-content-popular {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.card-item-popular:hover::after {
+    background-color: #0000003e;
+}
+.card-item-popular::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a5;
+    transition: all .3s ease;
+    z-index: 0;
+}
+.description-card {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    z-index: 3;
+}
+.des-title, .place-name {
+    margin: 0;
+    padding: 0;
+}
+.des-title {
+    font-weight: lighter;
+    font-size: .9em;
+}
